@@ -2,22 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="921a60c1-aa11-4de1-887e-2623e0433eb0" name="Default Changelist" comment="Initialize Project">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/ShiroBaseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top/gumt/shirobase/ShiroBaseApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/shiro-realm.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/gumt/shirobase/ShiroBaseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/gumt/shirobase/ShiroBaseApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +43,11 @@
         <option name="mavenHome" value="D:/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1mVLhWaKHrXBaZi1wLycpanKI9o" />
@@ -45,7 +64,44 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.gumt.shirobase.realm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ShiroBaseApplicationTests.test">
+    <configuration name="ShiroBaseApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.gumt.shirobase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.gumt.shirobase" />
+      <option name="MAIN_CLASS_NAME" value="top.gumt.shirobase.ShiroBaseApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroBaseApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.gumt.shirobase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.gumt.shirobase" />
+      <option name="MAIN_CLASS_NAME" value="top.gumt.shirobase.ShiroBaseApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShiroBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="shiro-base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.gumt.shirobase.ShiroBaseApplication" />
@@ -53,6 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShiroBaseApplicationTests.test" />
+        <item itemvalue="JUnit.ShiroBaseApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -77,6 +139,8 @@
       <option name="presentableId" value="Default" />
       <updated>1609573930873</updated>
       <workItem from="1609573937837" duration="831000" />
+      <workItem from="1609574830750" duration="8293000" />
+      <workItem from="1609585191671" duration="1649000" />
     </task>
     <servers />
   </component>
@@ -88,17 +152,49 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initialize Project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="893" y="144" key="CommitChangelistDialog2" timestamp="1609574659638">
+    <state x="1402" y="336" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609576279786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="893" y="144" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609574659638" />
+    <state x="1402" y="336" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609576279786" />
+    <state x="1503" y="356" key="#com.intellij.ide.util.MemberChooser" timestamp="1609578658609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1503" y="356" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609578658609" />
+    <state x="893" y="144" key="CommitChangelistDialog2" timestamp="1609587407441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="893" y="144" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609587407441" />
     <state x="935" y="534" key="FileChooserDialogImpl" timestamp="1609574443213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="935" y="534" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609574443213" />
+    <state width="1877" height="374" key="GridCell.Tab.0.bottom" timestamp="1609587221115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609587221115" />
+    <state width="1877" height="374" key="GridCell.Tab.0.center" timestamp="1609587221113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="374" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609587221113" />
+    <state width="1877" height="374" key="GridCell.Tab.0.left" timestamp="1609587221113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="374" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609587221113" />
+    <state width="1877" height="374" key="GridCell.Tab.0.right" timestamp="1609587221115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="374" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609587221115" />
     <state x="799" y="179" key="SettingsEditor" timestamp="1609574407204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="799" y="179" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609574407204" />
+    <state x="1305" y="453" key="com.intellij.ide.util.TipDialog" timestamp="1609585192722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1305" y="453" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609585192722" />
+    <state x="1380" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1609580048318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1380" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609580048318" />
   </component>
 </project>
