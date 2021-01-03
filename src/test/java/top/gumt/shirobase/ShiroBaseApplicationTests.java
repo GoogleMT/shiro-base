@@ -14,6 +14,7 @@ import org.junit.platform.engine.support.hierarchical.ThrowableCollector;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.File;
+import java.util.Arrays;
 
 @SpringBootTest
 class ShiroBaseApplicationTests {
@@ -55,6 +56,20 @@ class ShiroBaseApplicationTests {
         subject.login(token);
     }
 
+    private void login(String configFile, String username, String password) {
+        //1、获取SecurityManager工厂，此处使用 Ini配置文件初始化SecurityManager
+
+        Factory<org.apache.shiro.mgt.SecurityManager> factory =
+                new IniSecurityManagerFactory(configFile);
+        //2、得到SecurityManager实例 并绑定给SecurityUtils
+        org.apache.shiro.mgt.SecurityManager securityManager = factory.getInstance();
+        SecurityUtils.setSecurityManager(securityManager);
+        //3、得到Subject 及创建用户名/密码身份验证Token（即用户身份/凭证）
+        Subject subject = SecurityUtils.getSubject();
+        UsernamePasswordToken token = new UsernamePasswordToken(username, password);
+        subject.login(token);
+    }
+
     @Test
     void test() {
         login("classpath:shiro-authenticator-all-success.ini");
@@ -63,6 +78,48 @@ class ShiroBaseApplicationTests {
         PrincipalCollection principalCollection = subject.getPrincipals();
         System.out.println(principalCollection);
         Assert.assertEquals(2, principalCollection.asList().size());
+    }
+
+    @Test
+    public void testHasRole() {
+        login("classpath:shiro-role.ini", "zhang", "123");
+        // 判断拥有角色 role1
+        Subject subject = SecurityUtils.getSubject();
+        Assert.assertTrue(subject.hasRole("role1"));
+        // 判断拥有角色 role1, role2, role3
+        Assert.assertTrue(subject.hasAllRoles(Arrays.asList("role1", "role2")));
+        // 判断拥有角色 role1 and role2 and !role3
+        boolean[] result = subject.hasRoles(Arrays.asList("role1", "role2", "role3"));
+        Assert.assertEquals(true, result[0]);
+        Assert.assertEquals(true, result[1]);
+        Assert.assertEquals(true, result[2]);
+    }
+
+    @Test
+    public void testIsPermitted() {
+        login("classpath:shiro-permission.ini", "zhang", "123");
+        //判断拥有权限：user:create
+        Subject subject = SecurityUtils.getSubject();
+        Assert.assertTrue(subject.isPermitted("user:create"));
+        //判断拥有权限：user:update and user:delete
+        Assert.assertTrue(subject.isPermittedAll("user:update", "user:delete"));
+        //判断没有权限：user:view
+        Assert.assertFalse(subject.isPermitted("user:view"));
+    }
+
+    @Test
+    public void testIsPermitted01() {
+        login("classpath:shiro-authorizer.ini", "zhang", "123");
+        //判断拥有权限：user:create
+        Subject subject = SecurityUtils.getSubject();
+        Assert.assertTrue(subject.isPermitted("user1:update"));
+        Assert.assertTrue(subject.isPermitted("user2:update"));
+        //通过二进制位的方式表示权限
+        Assert.assertTrue(subject.isPermitted("+user1+2"));//新增权限
+        Assert.assertTrue(subject.isPermitted("+user1+8"));//查看权限
+        Assert.assertTrue(subject.isPermitted("+user2+10"));//新增及查看
+        Assert.assertFalse(subject.isPermitted("+user1+4"));//没有删除权限
+        Assert.assertTrue(subject.isPermitted("menu:view"));//通过MyRolePermissionResolver解析得到的权限
     }
 
 }
