@@ -1,10 +1,18 @@
 package top.gumt.shirobase;
 
+import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.authc.pam.AtLeastOneSuccessfulStrategy;
+import org.apache.shiro.authc.pam.ModularRealmAuthenticator;
+import org.apache.shiro.authz.ModularRealmAuthorizer;
+import org.apache.shiro.authz.permission.WildcardPermissionResolver;
 import org.apache.shiro.config.IniSecurityManagerFactory;
+import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.mgt.SecurityManager;
+import org.apache.shiro.realm.Realm;
+import org.apache.shiro.realm.jdbc.JdbcRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.Factory;
@@ -120,6 +128,52 @@ class ShiroBaseApplicationTests {
         Assert.assertTrue(subject.isPermitted("+user2+10"));//新增及查看
         Assert.assertFalse(subject.isPermitted("+user1+4"));//没有删除权限
         Assert.assertTrue(subject.isPermitted("menu:view"));//通过MyRolePermissionResolver解析得到的权限
+    }
+
+    /**
+     * 通过纯Java代码的形式构造SecurityManager
+     */
+    @Test
+    public void nonConfigurationCreateTest() {
+        DefaultSecurityManager securityManager = new DefaultSecurityManager();
+        // 设置authenticatior
+        ModularRealmAuthenticator authenticator = new ModularRealmAuthenticator();
+        authenticator.setAuthenticationStrategy(new AtLeastOneSuccessfulStrategy());
+        securityManager.setAuthenticator(authenticator);
+        // 设置authorizer
+        ModularRealmAuthorizer authorizer = new ModularRealmAuthorizer();
+        authorizer.setPermissionResolver(new WildcardPermissionResolver());
+        securityManager.setAuthenticator(authenticator);
+        // 设置Realm
+        DruidDataSource druidDataSource = new DruidDataSource();
+        druidDataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        druidDataSource.setUrl("jdbc:mysql://localhost:3306/shiro");
+        druidDataSource.setUsername("root");
+        druidDataSource.setPassword("root");
+        JdbcRealm jdbcRealm = new JdbcRealm();
+        jdbcRealm.setDataSource(druidDataSource);
+        jdbcRealm.setPermissionsLookupEnabled(true);
+        securityManager.setRealms(Arrays.asList((Realm) jdbcRealm));
+        // 将SecurityManager 设置到 SecurityUtils 方便全局管理
+        SecurityUtils.setSecurityManager(securityManager);
+        Subject subject = SecurityUtils.getSubject();
+        UsernamePasswordToken token = new UsernamePasswordToken("zhang", "123");
+        subject.login(token);
+        Assert.assertTrue(subject.isAuthenticated());
+    }
+
+    /**
+     * 通过配置文件的形式构造SecurityManager
+     */
+    @Test
+    public void configurationCreateTest() {
+        Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro-config.ini");
+        SecurityManager securityManager = factory.getInstance();
+        SecurityUtils.setSecurityManager(securityManager);;
+        Subject subject = SecurityUtils.getSubject();
+        UsernamePasswordToken token = new UsernamePasswordToken("zhang", "123");
+        subject.login(token);
+        Assert.assertTrue(subject.isAuthenticated());
     }
 
 }
