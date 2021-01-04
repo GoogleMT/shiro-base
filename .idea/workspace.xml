@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="921a60c1-aa11-4de1-887e-2623e0433eb0" name="Default Changelist" comment="authentication">
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/permission/BitAndWildPermissionResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/permission/BitPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/permission/MyRolePermissionResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/shiro-authorizer.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/shiro-permission.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top/gumt/shirobase/ShiroBaseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/gumt/shirobase/ShiroBaseApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/top/gumt/shirobase/ShiroBaseApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/top/gumt/shirobase/ShiroBaseApplicationTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="921a60c1-aa11-4de1-887e-2623e0433eb0" name="Default Changelist" comment="authentication" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +186,8 @@
       <updated>1609573930873</updated>
       <workItem from="1609573937837" duration="831000" />
       <workItem from="1609574830750" duration="8293000" />
-      <workItem from="1609585191671" duration="8978000" />
+      <workItem from="1609585191671" duration="10529000" />
+      <workItem from="1609762018207" duration="221000" />
     </task>
     <servers />
   </component>
@@ -225,30 +218,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="935" y="534" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609574443213" />
-    <state width="1860" height="438" key="GridCell.Tab.0.bottom" timestamp="1609653293340">
+    <state width="1860" height="366" key="GridCell.Tab.0.bottom" timestamp="1609653507706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="438" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609653293340" />
-    <state width="1860" height="438" key="GridCell.Tab.0.center" timestamp="1609653293340">
+    <state width="1860" height="366" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609653507706" />
+    <state width="1860" height="366" key="GridCell.Tab.0.center" timestamp="1609653507706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="438" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609653293340" />
-    <state width="1860" height="438" key="GridCell.Tab.0.left" timestamp="1609653293339">
+    <state width="1860" height="366" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609653507706" />
+    <state width="1860" height="366" key="GridCell.Tab.0.left" timestamp="1609653507706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="438" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609653293339" />
-    <state width="1860" height="438" key="GridCell.Tab.0.right" timestamp="1609653293340">
+    <state width="1860" height="366" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609653507706" />
+    <state width="1860" height="366" key="GridCell.Tab.0.right" timestamp="1609653507706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="438" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609653293340" />
+    <state width="1860" height="366" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609653507706" />
     <state x="799" y="179" key="SettingsEditor" timestamp="1609574407204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="799" y="179" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609574407204" />
-    <state x="1305" y="453" key="com.intellij.ide.util.TipDialog" timestamp="1609585192722">
+    <state x="1305" y="453" key="com.intellij.ide.util.TipDialog" timestamp="1609762021374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1305" y="453" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609585192722" />
+    <state x="1305" y="453" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609762021374" />
     <state x="1380" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1609580048318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
