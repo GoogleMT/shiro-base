@@ -1,333 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="921a60c1-aa11-4de1-887e-2623e0433eb0" name="Default Changelist" comment="authentication" />
-=======
-    <list default="true" id="921a60c1-aa11-4de1-887e-2623e0433eb0" name="Default Changelist" comment="authentication">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/shiro-config-main.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/shiro-config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_0_2_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_0_2_23.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_5_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_5_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_owasp_encoder_encoder_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_owasp_encoder_encoder_1_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top/gumt/shirobase/ShiroBaseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/gumt/shirobase/ShiroBaseApplicationTests.java" afterDir="false" />
+    <list default="true" id="b5f89fec-29f3-4849-8c11-d08bbde0573c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/ShiroBaseApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/credentials/RetryLimitHashedCredentialsMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/permission/BitAndWildPermissionResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/permission/BitPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/permission/MyRolePermissionResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/realm/MyRealm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/realm/MyRealm1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/realm/MyRealm2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/realm/MyRealm3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/realm/MyRealm4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/gumt/shirobase/realm/MyRealm5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-authenticator-all-success.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-authorizer.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-config-main.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-hashedCredentialsMatcher.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-jdbc-passwordservice.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-jdbc-realm.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-multi-realm.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-passwordservice.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-permission.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-realm.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-retryLimitHashedCredentialsMatcher.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-role.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/gumt/shirobase/ShiroBaseApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro-authenticator-all-success.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro-authorizer.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro-jdbc-realm.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro-multi-realm.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro-permission.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro-realm.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro-role.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/gumt/shirobase/ShiroBaseApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/gumt/shirobase/permission/BitAndWildPermissionResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/gumt/shirobase/permission/BitPermission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/gumt/shirobase/permission/MyRolePermissionResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/gumt/shirobase/realm/MyRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/gumt/shirobase/realm/MyRealm1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/gumt/shirobase/realm/MyRealm2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/gumt/shirobase/realm/MyRealm3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/top/gumt/shirobase/ShiroBaseApplicationTests.class" beforeDir="false" />
     </list>
->>>>>>> 361b38e3516cdad2fd1c6651d451c5f314b309ef
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\localRepository" />
-        <option name="mavenHome" value="D:/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1mVLhWaKHrXBaZi1wLycpanKI9o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="autoscrollToSource" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="top.gumt.shirobase.realm" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.ShiroBaseApplicationTests.testIsPermitted01">
-    <configuration name="ShiroBaseApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shiro-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.gumt.shirobase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.gumt.shirobase" />
-      <option name="MAIN_CLASS_NAME" value="top.gumt.shirobase.ShiroBaseApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShiroBaseApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shiro-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.gumt.shirobase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.gumt.shirobase" />
-      <option name="MAIN_CLASS_NAME" value="top.gumt.shirobase.ShiroBaseApplicationTests" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShiroBaseApplicationTests.testHasRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shiro-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.gumt.shirobase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.gumt.shirobase" />
-      <option name="MAIN_CLASS_NAME" value="top.gumt.shirobase.ShiroBaseApplicationTests" />
-      <option name="METHOD_NAME" value="testHasRole" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShiroBaseApplicationTests.testIsPermitted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shiro-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.gumt.shirobase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.gumt.shirobase" />
-      <option name="MAIN_CLASS_NAME" value="top.gumt.shirobase.ShiroBaseApplicationTests" />
-      <option name="METHOD_NAME" value="testIsPermitted" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShiroBaseApplicationTests.testIsPermitted01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shiro-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.gumt.shirobase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.gumt.shirobase" />
-      <option name="MAIN_CLASS_NAME" value="top.gumt.shirobase.ShiroBaseApplicationTests" />
-      <option name="METHOD_NAME" value="testIsPermitted01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShiroBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="shiro-base" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.gumt.shirobase.ShiroBaseApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <item itemvalue="JUnit.ShiroBaseApplicationTests.testIsPermitted01" />
-        <item itemvalue="JUnit.ShiroBaseApplicationTests.testIsPermitted" />
-        <item itemvalue="JUnit.ShiroBaseApplicationTests.testHasRole" />
-        <item itemvalue="JUnit.ShiroBaseApplicationTests.test" />
-        <item itemvalue="JUnit.ShiroBaseApplicationTests.contextLoads" />
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
-    </recent_temporary>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="921a60c1-aa11-4de1-887e-2623e0433eb0" name="Default Changelist" comment="" />
-      <created>1609573930873</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1609573930873</updated>
-      <workItem from="1609573937837" duration="831000" />
-      <workItem from="1609574830750" duration="8293000" />
-<<<<<<< HEAD
-      <workItem from="1609585191671" duration="10529000" />
-      <workItem from="1609762018207" duration="221000" />
-=======
-      <workItem from="1609585191671" duration="8978000" />
-      <workItem from="1609721410581" duration="4039000" />
->>>>>>> 361b38e3516cdad2fd1c6651d451c5f314b309ef
-    </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initialize Project" />
-    <MESSAGE value="authentication-no-databases" />
-    <MESSAGE value="authentication,no databases" />
-    <MESSAGE value="authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="authentication" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="1361" y="336" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609736017771">
+    <state x="693" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609775144062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1361" y="336" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609736017771" />
-    <state x="1503" y="356" key="#com.intellij.ide.util.MemberChooser" timestamp="1609609952140">
+    <state x="693" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609775144062" />
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom" timestamp="1609775402222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1503" y="356" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609609952140" />
-    <state x="893" y="144" key="CommitChangelistDialog2" timestamp="1609587407441">
+    <state width="1877" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609775402222" />
+    <state width="1877" height="369" key="GridCell.Tab.0.center" timestamp="1609775402222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="893" y="144" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609587407441" />
-    <state x="935" y="534" key="FileChooserDialogImpl" timestamp="1609574443213">
+    <state width="1877" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609775402222" />
+    <state width="1877" height="369" key="GridCell.Tab.0.left" timestamp="1609775402222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="935" y="534" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609574443213" />
-    <state width="1860" height="366" key="GridCell.Tab.0.bottom" timestamp="1609653507706">
+    <state width="1877" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609775402222" />
+    <state width="1877" height="369" key="GridCell.Tab.0.right" timestamp="1609775402222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="366" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609653507706" />
-    <state width="1860" height="366" key="GridCell.Tab.0.center" timestamp="1609653507706">
+    <state width="1877" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609775402222" />
+    <state x="683" y="252" key="Maven.ArtifactSearchDialog" timestamp="1609763882676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="366" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609653507706" />
-    <state width="1860" height="366" key="GridCell.Tab.0.left" timestamp="1609653507706">
+    <state x="683" y="252" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609763882676" />
+    <state x="421" y="253" key="new project wizard" timestamp="1609775826012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="366" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609653507706" />
-    <state width="1860" height="366" key="GridCell.Tab.0.right" timestamp="1609653507706">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="366" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609653507706" />
-    <state x="799" y="179" key="SettingsEditor" timestamp="1609574407204">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="799" y="179" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609574407204" />
-    <state x="1305" y="453" key="com.intellij.ide.util.TipDialog" timestamp="1609762021374">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1305" y="453" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609762021374" />
-    <state x="1380" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1609580048318">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1380" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609580048318" />
+    <state x="421" y="253" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1609775826012" />
   </component>
 </project>
