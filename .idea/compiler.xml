@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shiro-base" />
+        <module name="shiro-intro-auth" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="shiro-base" target="1.8" />
+      <module name="shiro-intro-auth" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="shiro-base" options="-parameters" />
+      <module name="shiro-intro-auth" options="-parameters" />
     </option>
   </component>
 </project>
