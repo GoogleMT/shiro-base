@@ -19,22 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5f89fec-29f3-4849-8c11-d08bbde0573c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/main/java/top/gumt/shiroauthrbac/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/main/java/top/gumt/shiroauthrbac/permission/BitAndWildPermissionResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/main/java/top/gumt/shiroauthrbac/permission/BitPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/main/java/top/gumt/shiroauthrbac/permission/MyRolePermissionResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/main/java/top/gumt/shiroauthrbac/realm/MyRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/main/resources/shiro-authorizer.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/main/resources/shiro-jdbc-authorizer.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/main/resources/shiro-permission.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/main/resources/shiro-role.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/test/java/top/gumt/shiroauthrbac/PermissionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/test/java/top/gumt/shiroauthrbac/ShrioAuthRbacApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-intro-auth/src/main/java/top/gumt/shirointroauth/ShiroIntroAuthApplication.java" beforeDir="false" />
-    </list>
+    <list default="true" id="b5f89fec-29f3-4849-8c11-d08bbde0573c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +187,7 @@
       <workItem from="1609923615225" duration="1425000" />
       <workItem from="1609978947645" duration="4796000" />
       <workItem from="1610017948730" duration="32000" />
-      <workItem from="1610018004149" duration="4316000" />
+      <workItem from="1610018004149" duration="5032000" />
     </task>
     <servers />
   </component>
