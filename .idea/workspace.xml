@@ -20,22 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f89fec-29f3-4849-8c11-d08bbde0573c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/java/top/gumt/shirointroauth/Realm/MyRealm3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/java/top/gumt/shirointroauth/authenticator/strategy/AtLeastTwoAuthenticatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/java/top/gumt/shirointroauth/authenticator/strategy/OnlyOneAuthenticatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro-authenticator-all-fail.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro-authenticator-all-success.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro-authenticator-atLeastOne-success.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro-authenticator-atLeastTwo-success.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro-authenticator-first-success.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro-authenticator-onlyone-success.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro-jdbc-realm.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/sql/shiro.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-intro-auth/src/test/java/top/gumt/shirointroauth/AuthenticatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-intro-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-intro-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-intro-auth/src/test/java/top/gumt/shirointroauth/ShiroIntroAuthApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-intro-auth/src/test/java/top/gumt/shirointroauth/ShiroIntroAuthApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro-authenticator-atLeastTwo-success.ini" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro-authenticator-atLeastTwo-success.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro-authenticator-onlyone-success.ini" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-intro-auth/src/main/resources/shiro-authenticator-onlyone-success.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +130,7 @@
       <workItem from="1609805906467" duration="1355000" />
       <workItem from="1609832827573" duration="2193000" />
       <workItem from="1609923615225" duration="1425000" />
-      <workItem from="1609978947645" duration="4501000" />
+      <workItem from="1609978947645" duration="4796000" />
     </task>
     <servers />
   </component>
@@ -183,22 +170,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609979640633" />
-    <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1609980414732">
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1609984069318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609980414732" />
-    <state width="1877" height="253" key="GridCell.Tab.0.center" timestamp="1609980414732">
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609984069318" />
+    <state width="1877" height="253" key="GridCell.Tab.0.center" timestamp="1609984069318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609980414732" />
-    <state width="1877" height="253" key="GridCell.Tab.0.left" timestamp="1609980414732">
+    <state width="1877" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609984069318" />
+    <state width="1877" height="253" key="GridCell.Tab.0.left" timestamp="1609984069318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609980414732" />
-    <state width="1877" height="253" key="GridCell.Tab.0.right" timestamp="1609980414732">
+    <state width="1877" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609984069318" />
+    <state width="1877" height="253" key="GridCell.Tab.0.right" timestamp="1609984069318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609980414732" />
+    <state width="1877" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609984069318" />
     <state x="683" y="252" key="Maven.ArtifactSearchDialog" timestamp="1609833289212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
