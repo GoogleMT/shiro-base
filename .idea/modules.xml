@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/shiro-auth-rbac/shiro-auth-rbac.iml" filepath="$PROJECT_DIR$/shiro-auth-rbac/shiro-auth-rbac.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro-base.iml" filepath="$PROJECT_DIR$/shiro-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro-intro-auth/shiro-intro-auth.iml" filepath="$PROJECT_DIR$/shiro-intro-auth/shiro-intro-auth.iml" />
     </modules>

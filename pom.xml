@@ -8,6 +8,7 @@
     <!-- 模块说明， 子模块 -->
     <modules>
         <module>shiro-intro-auth</module>
+        <module>shiro-auth-rbac</module>
     </modules>
 
     <!--  parent指明继承关系，给出被继承的父项目的具体信息  -->
