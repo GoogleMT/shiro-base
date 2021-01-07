@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shiro-auth-rbac/shiro-auth-rbac.iml" filepath="$PROJECT_DIR$/shiro-auth-rbac/shiro-auth-rbac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shiro-base.iml" filepath="$PROJECT_DIR$/.idea/shiro-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-ini-conf/shiro-ini-conf.iml" filepath="$PROJECT_DIR$/shiro-ini-conf/shiro-ini-conf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-intro-auth/shiro-intro-auth.iml" filepath="$PROJECT_DIR$/shiro-intro-auth/shiro-intro-auth.iml" />
+    </modules>
+  </component>
+</project>

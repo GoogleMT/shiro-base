@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5f89fec-29f3-4849-8c11-d08bbde0573c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shiro-ini-conf/src/main/java/top/gumt/shiroiniconf/authenticator/MyAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ini-conf/src/test/java/top/gumt/shiroiniconf/ConfigurationCreateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ini-conf/src/test/java/top/gumt/shiroiniconf/IniMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ini-conf/src/test/java/top/gumt/shiroiniconf/NonConfigurationCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mcvsrLwkxojzgPUSDlrceMNZku" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25632185" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.gumt.shirointroauth.Realm" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="JUnit.ShrioAuthRbacApplicationTests.testIsPermitted">
+    <configuration name="ShiroIntroAuthApplicationTests.shiroMultiRealm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-intro-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.gumt.shirointroauth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.gumt.shirointroauth" />
+      <option name="MAIN_CLASS_NAME" value="top.gumt.shirointroauth.ShiroIntroAuthApplicationTests" />
+      <option name="METHOD_NAME" value="shiroMultiRealm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShrioAuthRbacApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-auth-rbac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.gumt.shiroauthrbac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.gumt.shiroauthrbac" />
+      <option name="MAIN_CLASS_NAME" value="top.gumt.shiroauthrbac.ShrioAuthRbacApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShrioAuthRbacApplicationTests.testCheckRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-auth-rbac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.gumt.shiroauthrbac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.gumt.shiroauthrbac" />
+      <option name="MAIN_CLASS_NAME" value="top.gumt.shiroauthrbac.ShrioAuthRbacApplicationTests" />
+      <option name="METHOD_NAME" value="testCheckRole" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShrioAuthRbacApplicationTests.testHasRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-auth-rbac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.gumt.shiroauthrbac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.gumt.shiroauthrbac" />
+      <option name="MAIN_CLASS_NAME" value="top.gumt.shiroauthrbac.ShrioAuthRbacApplicationTests" />
+      <option name="METHOD_NAME" value="testHasRole" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShrioAuthRbacApplicationTests.testIsPermitted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-auth-rbac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.gumt.shiroauthrbac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.gumt.shiroauthrbac" />
+      <option name="MAIN_CLASS_NAME" value="top.gumt.shiroauthrbac.ShrioAuthRbacApplicationTests" />
+      <option name="METHOD_NAME" value="testIsPermitted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShrioAuthRbacApplicationTests.testIsPermitted" />
+        <item itemvalue="JUnit.ShrioAuthRbacApplicationTests.testCheckRole" />
+        <item itemvalue="JUnit.ShrioAuthRbacApplicationTests.testHasRole" />
+        <item itemvalue="JUnit.ShrioAuthRbacApplicationTests.test" />
+        <item itemvalue="JUnit.ShiroIntroAuthApplicationTests.shiroMultiRealm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5f89fec-29f3-4849-8c11-d08bbde0573c" name="Default Changelist" comment="" />
+      <created>1609805903534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609805903534</updated>
+      <workItem from="1609805906467" duration="1355000" />
+      <workItem from="1609832827573" duration="2193000" />
+      <workItem from="1609923615225" duration="1425000" />
+      <workItem from="1609978947645" duration="4796000" />
+      <workItem from="1610017948730" duration="32000" />
+      <workItem from="1610018004149" duration="7171000" />
+      <workItem from="1610026098816" duration="2539000" />
+      <workItem from="1610031686752" duration="399000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1610031831485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1610031831485" />
+    <state x="337" y="361" key="#SQL_Dialects" timestamp="1609984061492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="337" y="361" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1609984061492" />
+    <state x="614" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609984056469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609984056469" />
+    <state x="693" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609775144062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="693" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609775144062" />
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1609979640633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609979640633" />
+    <state x="582" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1610031811824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610031811824" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1610025996031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610025996031" />
+    <state width="1877" height="300" key="GridCell.Tab.0.bottom" timestamp="1610023113276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610023113276" />
+    <state width="1877" height="300" key="GridCell.Tab.0.center" timestamp="1610023113276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610023113276" />
+    <state width="1877" height="300" key="GridCell.Tab.0.left" timestamp="1610023113276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610023113276" />
+    <state width="1877" height="300" key="GridCell.Tab.0.right" timestamp="1610023113276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="300" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610023113276" />
+    <state x="683" y="252" key="Maven.ArtifactSearchDialog" timestamp="1609833289212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="683" y="252" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609833289212" />
+    <state x="926" y="172" key="SettingsEditor" timestamp="1610025596525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="926" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610025596525" />
+    <state x="1580" y="397" key="VCS.EditChangelistDialog" timestamp="1610025406718">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1580" y="397" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610025406718" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1610031687164">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610031687164" />
+    <state x="656" y="182" key="new project wizard" timestamp="1610031232668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="182" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610031232668" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610028253120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610028253120" />
+  </component>
+</project>
