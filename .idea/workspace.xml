@@ -198,7 +198,8 @@
       <workItem from="1610026098816" duration="2539000" />
       <workItem from="1610031686752" duration="1284000" />
       <workItem from="1610032988467" duration="687000" />
-      <workItem from="1610035035148" duration="542000" />
+      <workItem from="1610035035148" duration="696000" />
+      <workItem from="1610035804168" duration="269000" />
     </task>
     <servers />
   </component>
@@ -267,18 +268,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="683" y="252" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609833289212" />
-    <state x="926" y="172" key="SettingsEditor" timestamp="1610025596525">
+    <state x="258" y="109" key="SettingsEditor" timestamp="1610036073497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="926" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610025596525" />
+    <state x="258" y="109" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610036073497" />
     <state x="1580" y="397" key="VCS.EditChangelistDialog" timestamp="1610025406718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1580" y="397" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610025406718" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1610035038122">
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1610035800056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610035038122" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610035800056" />
     <state x="656" y="182" key="new project wizard" timestamp="1610035117983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
