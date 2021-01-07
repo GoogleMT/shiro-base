@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shiro-ini-conf" />
-        <module name="shiro-intro-auth" />
         <module name="shiro-auth-rbac" />
+        <module name="shiro-intro-auth" />
+        <module name="shiro-encoded" />
+        <module name="shiro-ini-conf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="shiro-auth-rbac" target="1.8" />
       <module name="shiro-base" target="1.8" />
+      <module name="shiro-encoded" target="1.8" />
       <module name="shiro-ini-conf" target="1.5" />
       <module name="shiro-intro-auth" target="1.8" />
     </bytecodeTargetLevel>
@@ -21,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="shiro-auth-rbac" options="-parameters" />
+      <module name="shiro-encoded" options="-parameters" />
       <module name="shiro-intro-auth" options="-parameters" />
     </option>
   </component>
