@@ -160,14 +160,11 @@ public class CodecAndCryptoTest {
         String encrptText = blowfishCipherService.encrypt(text.getBytes(), key.getEncoded()).toHex();
         //解密
         String text2 = new String(blowfishCipherService.decrypt(Hex.decode(encrptText), key.getEncoded()).getBytes());
-
         Assert.assertEquals(text, text2);
     }
 
     @Test
     public void testDefaultBlockCipherService() throws Exception {
-
-
         //对称加密，使用Java的JCA（javax.crypto.Cipher）加密API，常见的如 'AES', 'Blowfish'
         DefaultBlockCipherService cipherService = new DefaultBlockCipherService("AES");
         cipherService.setKeySize(128);
@@ -184,4 +181,5 @@ public class CodecAndCryptoTest {
 
         Assert.assertEquals(text, text2);
     }
+
 }
