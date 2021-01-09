@@ -61,4 +61,5 @@ public class ShrioAuthRbacApplicationTests extends BaseTest {
 
         Assert.assertTrue(subject().isPermitted("menu:view"));//通过MyRolePermissionResolver解析得到的权限
     }
+
 }

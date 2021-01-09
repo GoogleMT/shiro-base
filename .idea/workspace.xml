@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f89fec-29f3-4849-8c11-d08bbde0573c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shiro-encoded/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-encoded/src/test/java/top/gumt/shiroencoded/CodecAndCryptoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/main/resources/sql/shiro-init-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-encoded/src/main/java/top/gumt/shiroencoded/authenticator/MyAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-encoded/src/main/resources/shiro-config-main.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-encoded/src/main/resources/shiro-config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-encoded/src/test/java/top/gumt/shiroencoded/ConfigurationCreateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-encoded/src/test/java/top/gumt/shiroencoded/IniMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-encoded/src/test/java/top/gumt/shiroencoded/NonConfigurationCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-auth-rbac/src/test/java/top/gumt/shiroauthrbac/ShrioAuthRbacApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-auth-rbac/src/test/java/top/gumt/shiroauthrbac/ShrioAuthRbacApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +68,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25632185" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -76,24 +81,24 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="JUnit.ShrioAuthRbacApplicationTests.testIsPermitted">
-    <configuration name="ShiroIntroAuthApplicationTests.shiroMultiRealm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shiro-intro-auth" />
+  <component name="RunManager" selected="JUnit.ShrioAuthRbacApplicationTests.test01">
+    <configuration name="NonConfigurationCreateTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-encoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.gumt.shirointroauth.*" />
+          <option name="PATTERN" value="top.gumt.shiroencoded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.gumt.shirointroauth" />
-      <option name="MAIN_CLASS_NAME" value="top.gumt.shirointroauth.ShiroIntroAuthApplicationTests" />
-      <option name="METHOD_NAME" value="shiroMultiRealm" />
+      <option name="PACKAGE_NAME" value="top.gumt.shiroencoded" />
+      <option name="MAIN_CLASS_NAME" value="top.gumt.shiroencoded.NonConfigurationCreateTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShrioAuthRbacApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShrioAuthRbacApplicationTests.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shiro-auth-rbac" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="top.gumt.shiroauthrbac" />
       <option name="MAIN_CLASS_NAME" value="top.gumt.shiroauthrbac.ShrioAuthRbacApplicationTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShrioAuthRbacApplicationTests.test01" />
+        <item itemvalue="JUnit.NonConfigurationCreateTest.test01" />
         <item itemvalue="JUnit.ShrioAuthRbacApplicationTests.testIsPermitted" />
         <item itemvalue="JUnit.ShrioAuthRbacApplicationTests.testCheckRole" />
         <item itemvalue="JUnit.ShrioAuthRbacApplicationTests.testHasRole" />
-        <item itemvalue="JUnit.ShrioAuthRbacApplicationTests.test" />
-        <item itemvalue="JUnit.ShiroIntroAuthApplicationTests.shiroMultiRealm" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +204,10 @@
       <workItem from="1610031686752" duration="1284000" />
       <workItem from="1610032988467" duration="687000" />
       <workItem from="1610035035148" duration="696000" />
-      <workItem from="1610035804168" duration="269000" />
+      <workItem from="1610035804168" duration="1013000" />
+      <workItem from="1610106091337" duration="3797000" />
+      <workItem from="1610164838626" duration="614000" />
+      <workItem from="1610165497639" duration="57000" />
     </task>
     <servers />
   </component>
@@ -244,42 +252,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="136" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610032963615" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1610025996031">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1610164772126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610025996031" />
-    <state width="1877" height="300" key="GridCell.Tab.0.bottom" timestamp="1610033446641">
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610164772126" />
+    <state width="1877" height="300" key="GridCell.Tab.0.bottom" timestamp="1610165453119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610033446641" />
-    <state width="1877" height="300" key="GridCell.Tab.0.center" timestamp="1610033446641">
+    <state width="1877" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610165453119" />
+    <state width="1877" height="300" key="GridCell.Tab.0.center" timestamp="1610165453119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="300" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610033446641" />
-    <state width="1877" height="300" key="GridCell.Tab.0.left" timestamp="1610033446641">
+    <state width="1877" height="300" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610165453119" />
+    <state width="1877" height="300" key="GridCell.Tab.0.left" timestamp="1610165453119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="300" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610033446641" />
-    <state width="1877" height="300" key="GridCell.Tab.0.right" timestamp="1610033446641">
+    <state width="1877" height="300" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610165453119" />
+    <state width="1877" height="300" key="GridCell.Tab.0.right" timestamp="1610165453119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="300" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610033446641" />
+    <state width="1877" height="300" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610165453119" />
     <state x="683" y="252" key="Maven.ArtifactSearchDialog" timestamp="1609833289212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="683" y="252" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609833289212" />
-    <state x="258" y="109" key="SettingsEditor" timestamp="1610036073497">
+    <state x="710" y="114" key="SettingsEditor" timestamp="1610164614419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="258" y="109" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610036073497" />
+    <state x="710" y="114" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610164614419" />
     <state x="1580" y="397" key="VCS.EditChangelistDialog" timestamp="1610025406718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1580" y="397" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610025406718" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1610035800056">
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1610165503392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610035800056" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610165503392" />
     <state x="656" y="182" key="new project wizard" timestamp="1610035117983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
