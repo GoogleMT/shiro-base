@@ -5,7 +5,6 @@ import top.gumt.shirorealm.entity.Role;
 public interface RoleService {
     public Role createRole(Role role);
     public void deleteRole(Long roleId);
-
     /**
      * 添加角色-权限之间关系
      * @param roleId

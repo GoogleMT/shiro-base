@@ -12,6 +12,7 @@
         <module>shiro-ini-conf</module>
         <module>shiro-encoded</module>
         <module>shiro-realm</module>
+        <module>shiro-web</module>
     </modules>
 
     <!--  parent指明继承关系，给出被继承的父项目的具体信息  -->
