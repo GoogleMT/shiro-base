@@ -1,6 +1,0 @@
-top\gumt\shiroweb\web\servlet\LoginServlet.class
-top\gumt\shiroweb\web\servlet\AuthenticatedServlet.class
-top\gumt\shiroweb\web\servlet\PermissionServlet.class
-top\gumt\shiroweb\web\servlet\FormFilterLoginServlet.class
-top\gumt\shiroweb\web\servlet\UnAuthorizedServlet.class
-top\gumt\shiroweb\web\servlet\RoleServlet.class

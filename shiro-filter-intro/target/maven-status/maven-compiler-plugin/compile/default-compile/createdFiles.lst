@@ -1,7 +1,0 @@
-top\gumt\shirofilterintro\env\MyIniWebEnvironment.class
-top\gumt\shirofilterintro\filter\MyAdviceFilter.class
-top\gumt\shirofilterintro\filter\MyAccessControlFilter.class
-top\gumt\shirofilterintro\filter\AnyRolesFilter.class
-top\gumt\shirofilterintro\filter\MyPathMatchingFilter.class
-top\gumt\shirofilterintro\filter\FormLoginFilter.class
-top\gumt\shirofilterintro\filter\MyOncePerRequestFilter.class
