@@ -1,5 +1,4 @@
 <%@ page import="org.apache.shiro.SecurityUtils" %>
-<%@ page import="org.apache.shiro.session.mgt.OnlineSession" %>
 <%@ page import="top.gumt.shirosessionmgr.dao.MySessionDAO" %>
 <%@ page import="java.io.Serializable" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>

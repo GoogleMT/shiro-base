@@ -12,7 +12,7 @@
     <description>shiro 会话管理</description>
     <artifactId>shiro-sessionmgr</artifactId>
     <packaging>war</packaging>
-    <name>shiro-session-mgr</name>
+    <name>shiro-sessionmgr</name>
     <url>http://maven.apache.org</url>
 
     <dependencies>
@@ -94,7 +94,7 @@
     </dependencies>
 
     <build>
-        <finalName>shiro-session-mgr</finalName>
+        <finalName>shiro-sessionmgr</finalName>
         <plugins>
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
