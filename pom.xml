@@ -15,6 +15,7 @@
         <module>shiro-web</module>
         <module>shiro-filter-intro</module>
         <module>shiro-sessionmgr</module>
+        <module>shiro-cache</module>
     </modules>
 
     <!--  parent指明继承关系，给出被继承的父项目的具体信息  -->

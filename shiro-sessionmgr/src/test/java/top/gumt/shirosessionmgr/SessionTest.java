@@ -6,6 +6,8 @@ import org.apache.shiro.subject.Subject;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.UUID;
+
 public class SessionTest extends BaseTest {
     @Test
     public void testGetSession() throws Exception{
@@ -29,4 +31,5 @@ public class SessionTest extends BaseTest {
         Assert.assertEquals("123", session.getAttribute("key"));
         session.removeAttribute("key");
     }
+
 }
