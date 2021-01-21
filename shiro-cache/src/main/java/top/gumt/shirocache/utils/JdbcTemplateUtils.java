@@ -14,12 +14,11 @@ public class JdbcTemplateUtils {
     }
 
     private static JdbcTemplate createJdbcTemplate() {
-
         DruidDataSource ds = new DruidDataSource();
         ds.setDriverClassName("com.mysql.jdbc.Driver");
-        ds.setUrl("jdbc:mysql://localhost:3306/shiro");
+        ds.setUrl("jdbc:mysql://localhost:3306/shiro_cache");
         ds.setUsername("root");
-        ds.setPassword("");
+        ds.setPassword("12345678");
 
         return new JdbcTemplate(ds);
     }

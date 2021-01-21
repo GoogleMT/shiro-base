@@ -43,7 +43,6 @@ public abstract class BaseTest {
         JdbcTemplateUtils.jdbcTemplate().update("delete from sys_users_roles");
         JdbcTemplateUtils.jdbcTemplate().update("delete from sys_roles_permissions");
 
-
         //1、新增权限
         p1 = new Permission("user:create", "用户模块新增", Boolean.TRUE);
         p2 = new Permission("user:update", "用户模块修改", Boolean.TRUE);

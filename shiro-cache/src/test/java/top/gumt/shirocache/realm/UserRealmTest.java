@@ -27,8 +27,6 @@ public class UserRealmTest extends BaseTest {
         userRealm.clearCachedAuthenticationInfo(subject().getPrincipals());
 
         login(u1.getUsername(), password + "1");
-
-
     }
 
     @Test
