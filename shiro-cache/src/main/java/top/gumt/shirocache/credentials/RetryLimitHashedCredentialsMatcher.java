@@ -10,6 +10,9 @@ import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * 密码验证 自定义实现类
+ */
 public class RetryLimitHashedCredentialsMatcher extends HashedCredentialsMatcher {
 
     private Ehcache passwordRetryCache;
@@ -24,7 +27,7 @@ public class RetryLimitHashedCredentialsMatcher extends HashedCredentialsMatcher
         String username = (String)token.getPrincipal();
         //retry count + 1
         Element element = passwordRetryCache.get(username);
-        if(element == null) {
+        if(element == null) {  // 没有找到账号
             element = new Element(username , new AtomicInteger(0));
             passwordRetryCache.put(element);
         }

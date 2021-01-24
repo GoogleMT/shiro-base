@@ -75,6 +75,7 @@ public abstract class BaseTest {
 
         //2、得到SecurityManager实例 并绑定给SecurityUtils
         org.apache.shiro.mgt.SecurityManager securityManager = factory.getInstance();
+        //将SecurityManager设置到系统运行环境，和spring后将SecurityManager配置spring容器中，一般单例管理
         SecurityUtils.setSecurityManager(securityManager);
 
     }
@@ -88,8 +89,9 @@ public abstract class BaseTest {
 
         //3、得到Subject及创建用户名/密码身份验证Token（即用户身份/凭证）
         Subject subject = SecurityUtils.getSubject();
+        // 创建token令牌
         UsernamePasswordToken token = new UsernamePasswordToken(username, password);
-
+        // 执行认证
         subject.login(token);
     }
 
