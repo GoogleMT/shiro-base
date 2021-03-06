@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>shiro-base</artifactId>
-        <groupId>top.gumt</groupId>
-        <version>0.0.1-SNAPSHOT</version>
-    </parent>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <description>shiro与Spring的融合</description>
-    <artifactId>shiro-spring</artifactId>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.3</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>top.gumt</groupId>
+    <artifactId>shiro-rememberme</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
+    <name>shiro-rememberme</name>
     <url>http://maven.apache.org</url>
-    <name>shiro-spring</name>
-
+    <description>shiro记住我</description>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -142,21 +146,10 @@
             <version>4.0.0.RELEASE</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-nop</artifactId>
-            <version>1.7.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>4.1.1.RELEASE</version>
-        </dependency>
     </dependencies>
 
     <build>
-        <finalName>chapter12</finalName>
+        <finalName>shirorememberme</finalName>
         <plugins>
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
@@ -178,7 +171,6 @@
                 </configuration>
 
             </plugin>
-
         </plugins>
     </build>
 

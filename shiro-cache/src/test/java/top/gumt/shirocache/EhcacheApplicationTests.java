@@ -18,5 +18,6 @@ public class EhcacheApplicationTests {
             System.out.println(key + "=" + properties.getProperty(key));
         }
 
+
     }
 }
